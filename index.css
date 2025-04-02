@@ -1,0 +1,198 @@
+/* General Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Poppins",sans-serif; 
+	background: #D4C9BE 0% 0% no-repeat padding-box;
+	opacity: 10;
+}
+#menu {
+	/* UI Properties */
+	background: #DDA853 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#menu a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: color 0.3s ease-in-out;
+}
+
+#menu a:hover {
+    color: #003092; /* Highlight effect on hover */
+}
+
+#hm, #prjcts, #tls, #cntct {
+	/* Layout Properties */
+	margin-left: 50px;
+	/* UI Properties */
+	text-align: center;
+	font: normal normal 500 20px Montserrat;
+	letter-spacing: 0px;
+	color: #27548A;
+	opacity: 1;
+}
+#landing {
+	/* UI Properties */
+	background:#123458 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.landing-text {
+	color: #D4C9BE;
+	opacity: 1;
+}
+
+.card {
+	/* Layout Properties */
+
+	/* UI Properties */
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: -1px 3px 6px #00000029;
+	border-radius: 15px;
+	opacity: 1;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	color:rgb(35, 119, 4);
+}
+.card-title {
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 600 20px Montserrat;
+	letter-spacing: 0px;
+	color: #5F8B4C;
+}
+
+.card-text {
+	/* UI Properties */
+	text-align: left;
+	font: normal normal medium 14px Montserrat;
+	letter-spacing: 0px;
+	
+}
+
+.card-img {
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	opacity: 1;
+}
+
+.tools-img {
+	padding: 15px;
+}
+
+.contact-section {
+	max-width: 1200px;
+	margin: auto;
+	padding: 50px 20px;
+}
+.contact-form-control {
+	background-color: transparent;
+	border: 1px solid #003C82;
+	color: #003C82;
+	padding: 12px;
+	font-size: 16px;
+}
+.contact-form-control::placeholder {
+	color: rgba(0, 0, 0, 0.6);
+}
+.submit-btn {
+	background-color:rgb(147, 0, 180);
+	color: white;
+	border-radius: 30px;
+	padding: 12px 30px;
+	border: none;
+	font-size: 16px;
+}
+.social-icons a {
+	font-size: 28px;
+	margin-right: 15px;
+	color:rgb(147, 0, 180);
+}
+.map-container iframe {
+	width: 100%;
+	height: 350px;
+	border-radius: 10px;
+	padding-right: 1px;
+}
+
+.form-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-footer .submit-btn {
+	margin-left: auto;
+}
+
+.fab {
+	font-size: 2rem;
+}
+
+h1,h2,h3,h4, .nav-link,.card-title {
+	font-family: "Montserrat", serif;
+	color: #F1EFEC;
+	opacity: 1;
+	font-style: Italic;
+	font-weight: 700;
+	
+}
+
+h5{
+	color:rgb(29, 160, 230) !important;
+
+}
+
+h1 {
+	/* UI Properties */
+	font: normal normal 750 45px/30px Montserrat;
+	color: #27548A;
+}
+
+footer {
+	background: #DDA853 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: #27548A !important;
+}
+#other-tools {
+	color: #27548A !important;
+}
+#myName{
+	color: #FFFFFF;
+}
+
+#myTitle {
+	font-size: 24px;
+    font-family: "Courier New", monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #FFFFFF; /* Blinking cursor effect */
+    width: fit-content;
+	display: inline-block;
+}
+
+#myTitle::after {
+    display: inline-block;
+    animation: blink 0.75s step-end infinite;
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
